@@ -1,0 +1,32 @@
+[
+    {
+        "id": 0,
+        "titulo": "O que é JavaScript",
+        "descricao": "JavaScript é uma linguagem de programação usada para trazer interatividade, responsividade e dinamismo a uma página Web.mplexas em páginas web. Essas características são complexas e possibilitadas pela linguagem que trabalha desde o momento em que a página web é exibida no navegador."
+    },
+    {
+        "id": 1,
+        "titulo": "História do JavaScript",
+        "descricao": "O JavaScript foi criado por Brendan Eich e lançado inicialmente como uma linguagem do lado do servidor para o Netscape Navigator 2.0 em setembro de 1995. O Internet Explorer 3.0 também adotou o suporte ao JavaScript, chamando-o de JScript, em agosto de 1996. A Netscape então colaborou com a ECMA International para padronizar o JavaScript, resultando na especificação conhecida como ECMAScript, sob a ECMA-262. A versão mais recente, ES2020, foi lançada em junho de 2020. O JavaScript ganhou ainda mais popularidade com o advento do Node.js, um ambiente de execução JavaScript fora do navegador, criado usando o motor V8 JavaScript. Com Node.js, os desenvolvedores podem usar JavaScript para automatizar tarefas em computadores e criar servidores HTTP e WebSocket totalmente funcionais."
+    },
+    {
+        "id": 2,
+        "titulo": "Funções em JavaScript",
+        "descricao": "Funções são blocos de construção fundamentais em JavaScript. Uma função é um procedimento de JavaScript - um conjunto de instruções que executa uma tarefa ou calcula um valor. Para usar uma função, você deve defini-la em algum lugar no escopo do qual você quiser chamá-la."
+    },
+    {
+        "id": 3,
+        "titulo": "Objetos em JavaScript",
+        "descricao": "A linguagem JavaScript é projetada com base em um simples paradigma orientado a objeto. Um objeto é uma coleção de propriedades, e uma propriedade é uma associação entre um nome (ou chave) e um valor. Um valor de propriedade pode ser uma função, que é então considerada um método do objeto. Além dos objetos que são pré-definidos no browser, você pode definir seus próprios objetos."
+    },
+    {
+        "id": 4,
+        "titulo": "Declaração 'for' em JavaScript",
+        "descricao": "A declaração 'for' cria um loop que consiste em três expressões opcionais, dentro de parênteses e separadas por ponto e vírgula, seguidas por uma declaração ou uma sequência de declarações executadas em sequência."
+    },
+    {
+        "id": 5,
+        "titulo": "Manipulação do DOM",
+        "descricao": "A manipulação do DOM (Document Object Model) é uma habilidade essencial no desenvolvimento web com JavaScript. O DOM representa a estrutura em forma de árvore de um documento HTML e permite que você altere dinamicamente os elementos da página, criando uma experiência interativa para os usuários."
+    }
+]
