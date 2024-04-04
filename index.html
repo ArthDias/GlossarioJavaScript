@@ -1,35 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-Br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Glossário JavaScript</title>
+    <meta name="author" content="Arthur Dias">
+    <meta name="keywords" content="html, css, web, desenvolvimento, front-end">
+    <title>Glossário Javascript</title>
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.js" defer></script>
 </head>
+
 <body>
     <section class="container">
         <section class="title">
-            <h1>Glossário </h1> <h1>JavaScript</h1>
+            <h1>Glossário <br> JavaScript</h1>
             <div class="title-img">
                 <img src="imgs/javascript-logo.png" alt="Logo da linguagem de programação JavaScript">
             </div>
         </section>
-        <section class="definitions">
-            <p>Selecione abaixo o item que deseja a definição:</p>
-            <select name="" id="slc-defs">
-                <option value="0">O que é JavaScript?</option>
-                <option value="1">História do JavaScript</option>
-                <option value="2">Funções em JavaScript</option>
-                <option value="3">Objetos em JavaScript</option>
-                <option value="4">Declaração 'for' em JavaScript</option>
-                <option value="5">Manipulação do DOM</option>
+        <div class="definitions">
+            <p>Escolha um topico a baixo:</p>
+            <select title="Definitions" id="slc-defs" onchange="selectChange()">
             </select>
             <div class="definitions-text">
+                <p id="txt-desc"></p>
             </div>
-        </section>
+        </div>
     </section>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="/app.js"></script>
+
 </body>
+
 </html>
